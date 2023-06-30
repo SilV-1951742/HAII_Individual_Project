@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "haii-project"
+version = "0.1.0"
+description = ""
+authors = ["SilV-1951742 <sil.vaes@student.uhasselt.be>"]
+readme = "README.md"
+packages = [{include = "haii_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-cpp-python = "^0.1.66"
+discord = "^2.3.1"
+ruff = "^0.0.275"
+python-lsp-server = "^1.7.3"
+pyls-isort = "^0.2.2"
+python-lsp-black = "^1.3.0"
+pylsp-mypy = "^0.6.7"
+python-lsp-ruff = "^1.5.1"
+langchain = "^0.0.215"
+nest-asyncio = "^1.5.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "haii_project:main"

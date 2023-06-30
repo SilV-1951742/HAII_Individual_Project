@@ -1,0 +1,9 @@
+**/dataset
+**/haii
+**/models
+**/.mypy_cache
+**/__pycache__
+*.rar
+**/.direnv
+.envrc
+.key
